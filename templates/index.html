@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Face Recognition Logs</title></head>
+<body>
+  <h2>Recent Face Recognition Events</h2>
+  <ul>
+    {% for log in logs %}
+      <li>{{ log.time }} - {{ log.name }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
