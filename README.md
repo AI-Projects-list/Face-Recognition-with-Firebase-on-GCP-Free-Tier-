@@ -6,7 +6,7 @@ This project uses OpenCV and face_recognition in Python to detect and recognize 
 
 ## Features
 
-- Face recognition via webcam
+- Face recognition via camera
 - Logs to Firebase Firestore
 - Flask web dashboard to view logs
 - Deployable to Google Cloud Run
